@@ -1,9 +1,13 @@
-import Header from "./components/Header";
+// import Header from "./components/Header";
+import Headerer from "./components/Headerer";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+
+      {/* <Header /> */}
+      <Headerer />
+
     </div>
   );
 }
