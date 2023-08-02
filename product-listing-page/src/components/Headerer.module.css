@@ -1,3 +1,7 @@
+.header {
+    position: sticky;
+}
+
 .logo-cont {
     display: flex;
     justify-content: space-between;

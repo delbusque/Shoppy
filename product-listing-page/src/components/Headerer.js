@@ -4,7 +4,7 @@ import { BsBasket } from "react-icons/bs";
 
 const Headerer = () => {
     return (
-        <>
+        <div className={styles['header']}>
             <section className={styles["logo-cont"]}>
                 <section className={styles["search"]}>
                     Search...
@@ -29,7 +29,7 @@ const Headerer = () => {
                 <li className={styles['cat']}>Shoes</li>
             </ul>
 
-        </>
+        </div>
 
 
     )
