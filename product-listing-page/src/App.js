@@ -1,12 +1,15 @@
-// import Header from "./components/Header";
-import Headerer from "./components/Headerer";
+
+import Headerer from "./components/header/Headerer";
+import Category from "./components/category/Category";
+import Main from "./components/main/Main";
 
 function App() {
   return (
     <div className="App">
-
-      {/* <Header /> */}
       <Headerer />
+      <Category />
+
+      <Main />
 
     </div>
   );

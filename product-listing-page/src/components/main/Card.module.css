@@ -1,0 +1,53 @@
+.card-cont {
+    width: 250px;
+    padding: 15px 15px;
+    border: 1px solid rgba(192, 214, 221, 0.281);
+    text-align: center;
+    position: relative;
+}
+
+
+
+img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+
+h3,
+p,
+h2 {
+    text-align: center;
+}
+
+.info-cont {
+    margin-bottom: 7px;
+}
+
+.desc {
+    margin-bottom: 5px;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(184, 135, 11, 0.843);
+    cursor: pointer;
+}
+
+.stars-cont {
+    text-align: center;
+}
+
+.star {
+    color: rgba(184, 135, 11, 0.881);
+}
