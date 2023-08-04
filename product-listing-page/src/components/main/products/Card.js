@@ -5,7 +5,7 @@ const Card = ({ id, name, desc, img, price, rating }) => {
     return (
         <div className={styles["card-cont"]}>
 
-            <img src={img} alt="image" className="img" />
+            <img src={img} alt="product" className="img" />
 
             <div className={styles["cont"]}>
                 <div className={styles["info-cont"]}>
