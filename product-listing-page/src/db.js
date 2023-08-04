@@ -24,7 +24,7 @@ const db = [
     {
         "id": 1,
         "name": "half sleeves T shirts",
-        "desc": "Many store is creating new designs and trend every month and every year",
+        "desc": "Many store is creating new designs and trend every month and every year Many store is creating new designs and trend every month and every year",
         "price": 23,
         "discountPercentage": 12.76,
         "rating": 2,

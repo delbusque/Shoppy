@@ -28,7 +28,8 @@ h2 {
 .desc {
   margin-bottom: 5px;
   font-size: 18px;
-  height: 100px;
+  height: 80px;
+  overflow: hidden;
 }
 
 .price {
