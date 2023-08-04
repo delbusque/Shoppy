@@ -8,7 +8,6 @@ const Header = ({ category, setCategory }) => {
     const categoryHandler = (e) => {
         const name = e.target.textContent;
         setCategory(db.categories.find(cat => cat.name === name));
-        console.log(category);
     }
 
 

@@ -1,4 +1,7 @@
 .main-cont {
-    display: flex;
-    justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 15% 65% 15%;
+  align-items: start;
+  margin-left: 60px;
 }
