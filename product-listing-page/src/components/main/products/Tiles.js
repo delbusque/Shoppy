@@ -1,11 +1,7 @@
-import { useEffect, useState } from 'react';
-
 import Card from './Card';
 import styles from './Tiles.module.css'
 
-const Tiles = ({ products }) => {
-
-    const [flag, setFlag] = useState(20)
+const Tiles = ({ products, flag }) => {
 
     return (
         <>

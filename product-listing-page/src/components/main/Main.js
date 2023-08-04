@@ -3,7 +3,7 @@ import styles from './Main.module.css'
 import Sort from './sort/Sort';
 import Tiles from './products/Tiles';
 
-const Main = ({ category, products }) => {
+const Main = ({ category, products, flag }) => {
 
     const chosenCategory = category.name.toLowerCase();
 
@@ -12,7 +12,7 @@ const Main = ({ category, products }) => {
     return (
         <div className={styles['main-cont']}>
             <Filter />
-            <Tiles products={currentProducts} />
+            <Tiles products={currentProducts} flag={flag} />
             <Sort />
         </div>
     )
