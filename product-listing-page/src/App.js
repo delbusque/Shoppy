@@ -1,16 +1,27 @@
 import styles from './App.module.css';
+import db from './db.js';
+import { useState, useEffect } from 'react';
 
 import Header from "./components/header/Header";
 import Category from "./components/category/Category";
 import Main from "./components/main/Main";
 
+
+
 function App() {
+
+  const [category, setCategory] = useState(db.categories[0])
+
+  useEffect(() => {
+    console.log(category);
+  }, [category])
+
   return (
     <div className="App">
-      <Header />
-      <Category />
+      <Header category={category} setCategory={setCategory} />
+      <Category category={category} />
 
-      <Main />
+      <Main products={db.products} />
 
       <footer className={styles['footer']}>
         <p>Copyright &copy; 2023 <span className={styles['footer-link']}> Privacy policy </span> SHOPPY <span className={styles['footer-link']}> T&C </span>All Rights Reserved.</p>

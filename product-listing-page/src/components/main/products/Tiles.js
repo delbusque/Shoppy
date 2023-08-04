@@ -1,15 +1,10 @@
 import Card from './Card';
 import styles from './Tiles.module.css'
-import db from '../../../db.js';
 
-const Tiles = () => {
+const Tiles = ({ products }) => {
     return (
-        <div className={styles["flex-cont"]}>
-            <div className={styles["tiles-cont"]}>
-
-                {db.map(({ id, name, desc, img, price, rating }) => <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} />)}
-
-            </div>
+        <div className={styles["tiles-cont"]}>
+            {products.map(({ id, name, desc, img, price, rating }) => <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} />)}
         </div>
     )
 }

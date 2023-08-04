@@ -12,6 +12,10 @@
   margin-right: 10px;
 }
 
+.input-cont span {
+  font-size: 18px;
+}
+
 .color {
   margin-bottom: 50px;
 }

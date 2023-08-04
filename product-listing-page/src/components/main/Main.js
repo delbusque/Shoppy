@@ -3,11 +3,11 @@ import styles from './Main.module.css'
 import Sort from './sort/Sort';
 import Tiles from './products/Tiles';
 
-const Main = () => {
+const Main = ({ products }) => {
     return (
         <div className={styles['main-cont']}>
             <Filter />
-            <Tiles />
+            <Tiles products={products} />
             <Sort />
         </div>
     )
