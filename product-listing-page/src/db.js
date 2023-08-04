@@ -28,7 +28,7 @@ const db = [
         "price": 23,
         "discountPercentage": 12.76,
         "rating": 2,
-        "category": "mens-shirts",
+        "category": "t-shirts",
         "img": "https://i.dummyjson.com/data/products/51/2.jpg",
 
     },
