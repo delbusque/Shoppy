@@ -6,31 +6,31 @@ const Color = () => {
             <h4 className={styles['color-title']}>Color</h4>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='25' name='price' /> <span>{'Black'}</span>
+                <input type="radio" value='black' name='color' /> <span>{'Black'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='50' name='price' /> <span>{'White'}</span>
+                <input type="radio" value='white' name='color' /> <span>{'White'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='100' name='price' /> <span>{'Red'}</span>
+                <input type="radio" value='red' name='color' /> <span>{'Red'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='over-100' name='price' /> <span>{'Blue'}</span>
+                <input type="radio" value='blue' name='color' /> <span>{'Blue'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='over-100' name='price' /> <span>{'Green'}</span>
+                <input type="radio" value='green' name='color' /> <span>{'Green'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='over-100' name='price' /> <span>{'Yellow'}</span>
+                <input type="radio" value='yellow' name='color' /> <span>{'Yellow'}</span>
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='all' name='price' /><span>{'All'}</span>
+                <input type="radio" value='all' name='color' /><span>{'All'}</span>
             </label>
 
 
