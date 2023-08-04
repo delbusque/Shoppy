@@ -1,13 +1,13 @@
 import styles from './App.module.css';
 
-import Headerer from "./components/header/Headerer";
+import Header from "./components/header/Header";
 import Category from "./components/category/Category";
 import Main from "./components/main/Main";
 
 function App() {
   return (
     <div className="App">
-      <Headerer />
+      <Header />
       <Category />
 
       <Main />
