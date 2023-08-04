@@ -14,7 +14,6 @@ const Main = ({ category, products }) => {
             <Filter />
             <Tiles products={currentProducts} />
             <Sort />
-
         </div>
     )
 }
