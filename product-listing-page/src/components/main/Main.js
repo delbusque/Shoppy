@@ -1,7 +1,7 @@
-import Filter from './Filter';
+import Filter from './filter/Filter';
 import styles from './Main.module.css'
-import Sort from './Sort';
-import Tiles from './Tiles';
+import Sort from './sort/Sort';
+import Tiles from './products/Tiles';
 
 
 const Main = () => {

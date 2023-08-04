@@ -1,0 +1,9 @@
+.sort-cont {
+  min-width: 12%;
+}
+
+.select {
+  border: 1px solid #1c50504a;
+  padding: 10px 10px;
+  font-size: 16px;
+}

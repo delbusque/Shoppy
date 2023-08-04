@@ -1,0 +1,17 @@
+.input-cont {
+  display: flex;
+}
+
+.color-title {
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.input-cont input {
+  margin-right: 10px;
+}
+
+.color {
+  margin-bottom: 50px;
+}
