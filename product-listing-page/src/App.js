@@ -13,6 +13,7 @@ function App() {
 
   const [category, setCategory] = useState(db.categories[0]);
   const [flag, setFlag] = useState(20);
+  const [isLoadMore, setIsLoadMore] = useState(true)
 
   const loadMoreHandler = () => {
     setFlag(oldState => oldState + 20)
@@ -23,9 +24,9 @@ function App() {
       <Header category={category} setCategory={setCategory} />
       <Category category={category} />
 
-      <Main products={db.products} category={category} flag={flag} />
+      <Main products={db.products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} />
 
-      <LoadMore loadMoreHandler={loadMoreHandler} />
+      {isLoadMore && <LoadMore loadMoreHandler={loadMoreHandler} />}
       <Footer />
     </div>
   );

@@ -32,8 +32,6 @@ const Color = () => {
             <label className={styles['input-cont']}>
                 <input type="radio" value='all' name='color' /><span>{'All'}</span>
             </label>
-
-
         </div>
 
 

@@ -1,9 +1,14 @@
+import { useState } from 'react';
+
 import Filter from './filter/Filter';
 import styles from './Main.module.css'
 import Sort from './sort/Sort';
 import Tiles from './products/Tiles';
 
-const Main = ({ category, products, flag }) => {
+const Main = ({ category, products, flag, setIsLoadMore }) => {
+
+    const [byPrice, setByPrice] = useState(0);
+    console.log(byPrice);
 
     const chosenCategory = category.name.toLowerCase();
 
@@ -11,8 +16,8 @@ const Main = ({ category, products, flag }) => {
 
     return (
         <div className={styles['main-cont']}>
-            <Filter />
-            <Tiles products={currentProducts} flag={flag} />
+            <Filter setByPrice={setByPrice} />
+            <Tiles products={currentProducts} flag={flag} byPrice={byPrice} setIsLoadMore={setIsLoadMore} />
             <Sort />
         </div>
     )

@@ -6,3 +6,8 @@
   margin-left: 50px;
   gap: 15px;
 }
+
+.no-products {
+  position: absolute;
+  transform: translate(-50%, 50%);
+}

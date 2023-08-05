@@ -2,11 +2,11 @@ import Color from './Color.js';
 import styles from './Filter.module.css'
 import Price from './Price.js';
 
-const Filter = () => {
+const Filter = ({ setByPrice }) => {
     return (
         <div className={styles['filter-cont']}>
 
-            <Price />
+            <Price setByPrice={setByPrice} />
             <Color className={styles['color']} />
 
         </div>
