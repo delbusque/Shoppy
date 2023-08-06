@@ -14,6 +14,8 @@ function App() {
   const [category, setCategory] = useState(db.categories[0]);
   const [flag, setFlag] = useState(20);
   const [isLoadMore, setIsLoadMore] = useState(true)
+  const [showed, setShowed] = useState(0)
+  const [filtered, setFiltered] = useState(0)
 
   const loadMoreHandler = () => {
     setFlag(oldState => oldState + 20)
@@ -24,9 +26,10 @@ function App() {
       <Header category={category} setCategory={setCategory} />
       <Category category={category} />
 
-      <Main products={db.products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} />
-
-      {isLoadMore && <LoadMore loadMoreHandler={loadMoreHandler} />}
+      <Main products={db.products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
+      {console.log(showed)}
+      {console.log(filtered)}
+      {(isLoadMore && showed < filtered) && <LoadMore loadMoreHandler={loadMoreHandler} />}
       <Footer />
     </div>
   );

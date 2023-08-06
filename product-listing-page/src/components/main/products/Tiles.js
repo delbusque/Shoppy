@@ -1,7 +1,8 @@
+import { useEffect } from 'react';
 import Card from './Card';
 import styles from './Tiles.module.css'
 
-const Tiles = ({ products, flag, byPrice, setIsLoadMore }) => {
+const Tiles = ({ products, flag, byPrice, setIsLoadMore, setShowed, setFiltered }) => {
 
     const filteredProducts = products.filter(p => {
 
@@ -22,18 +23,30 @@ const Tiles = ({ products, flag, byPrice, setIsLoadMore }) => {
         }
     })
 
-    filteredProducts.length === 0 ? setIsLoadMore(false) : setIsLoadMore(true);
+    let onGrid = 0;
+
+    // filteredProducts.length === 0 ? setIsLoadMore(false) : setIsLoadMore(true);
+
+    const cardElement = filteredProducts.map(({ id, name, desc, img, price, rating }, i) => {
+        if (i < flag) {
+            onGrid++;
+        }
+        return i < flag && <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} />
+    })
+
+    useEffect(() => {
+        setShowed(onGrid)
+        setFiltered(filteredProducts.length)
+    }, [filteredProducts, onGrid, setShowed, setFiltered])
+
+
 
     return (
         <>
             <div className={styles["tiles-cont"]}>
                 {filteredProducts.length === 0 && <div className={styles["no-products"]}>No products with that criteria.</div>}
 
-                {filteredProducts.map(({ id, name, desc, img, price, rating }, i) => {
-
-                    return i < flag && <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} />
-                })}
-
+                {cardElement}
 
             </div>
         </>
