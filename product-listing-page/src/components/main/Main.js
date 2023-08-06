@@ -8,6 +8,7 @@ import Tiles from './products/Tiles';
 const Main = ({ category, products, flag, setIsLoadMore, setShowed, setFiltered }) => {
 
     const [byPrice, setByPrice] = useState(0);
+    const [byColor, setByColor] = useState('all');
 
     const chosenCategory = category.name.toLowerCase();
 
@@ -15,8 +16,8 @@ const Main = ({ category, products, flag, setIsLoadMore, setShowed, setFiltered 
 
     return (
         <div className={styles['main-cont']}>
-            <Filter setByPrice={setByPrice} />
-            <Tiles products={currentProducts} flag={flag} byPrice={byPrice} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
+            <Filter setByPrice={setByPrice} setByColor={setByColor} />
+            <Tiles products={currentProducts} flag={flag} byPrice={byPrice} byColor={byColor} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
             <Sort />
         </div>
     )
