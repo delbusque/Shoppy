@@ -36,6 +36,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "red"
         },
         {
             "id": 2,
@@ -46,7 +47,7 @@ const db = {
             "discountPercentage": 55.76,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
-
+            "color": "black"
         },
         {
             "id": 3,
@@ -57,7 +58,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 2,
             "img": "https://i.dummyjson.com/data/products/51/2.jpg",
-
+            "color": "black"
         },
         {
             "id": 4,
@@ -68,7 +69,7 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
-
+            "color": "black"
         },
         {
             "id": 5,
@@ -79,6 +80,8 @@ const db = {
             "rating": 5,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "green"
+
         },
         {
             "id": 6,
@@ -89,6 +92,8 @@ const db = {
             "rating": 3,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "red"
+
         },
         {
             "id": 7,
@@ -99,6 +104,8 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
         {
             "id": 8,
@@ -109,7 +116,10 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
-        }, {
+            "color": "black"
+
+        },
+        {
             "id": 331,
             "category": "jackets",
             "name": "Adicolor 70S",
@@ -118,6 +128,8 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 332,
@@ -128,6 +140,7 @@ const db = {
             "discountPercentage": 55.76,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
+            "color": "black"
 
         },
         {
@@ -139,6 +152,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 2,
             "img": "https://i.dummyjson.com/data/products/51/2.jpg",
+            "color": "black"
 
         },
         {
@@ -150,6 +164,7 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
+            "color": "green"
 
         },
         {
@@ -161,6 +176,8 @@ const db = {
             "rating": 5,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "red"
+
         },
         {
             "id": 336,
@@ -171,6 +188,8 @@ const db = {
             "rating": 3,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
         {
             "id": 337,
@@ -181,6 +200,8 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 338,
@@ -191,6 +212,8 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1111,
@@ -201,6 +224,8 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1112,
@@ -211,7 +236,7 @@ const db = {
             "discountPercentage": 55.76,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
-
+            "color": "black"
         },
         {
             "id": 1113,
@@ -222,6 +247,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 2,
             "img": "https://i.dummyjson.com/data/products/51/2.jpg",
+            "color": "green"
 
         },
         {
@@ -233,6 +259,7 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
+            "color": "red"
 
         },
         {
@@ -244,6 +271,8 @@ const db = {
             "rating": 5,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
         {
             "id": 1116,
@@ -254,6 +283,8 @@ const db = {
             "rating": 3,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1117,
@@ -264,6 +295,8 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1118,
@@ -274,7 +307,10 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
-        }, {
+            "color": "black"
+
+        },
+        {
             "id": 1331,
             "category": "jackets",
             "name": "Adicolor 70S",
@@ -283,6 +319,8 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1332,
@@ -304,6 +342,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 2,
             "img": "https://i.dummyjson.com/data/products/51/2.jpg",
+            "color": "red"
 
         },
         {
@@ -315,6 +354,7 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
+            "color": "green"
 
         },
         {
@@ -326,6 +366,8 @@ const db = {
             "rating": 5,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1336,
@@ -336,6 +378,8 @@ const db = {
             "rating": 3,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
         {
             "id": 1337,
@@ -346,6 +390,8 @@ const db = {
             "rating": 4,
             "category": "jackets",
             "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 1338,
@@ -356,6 +402,7 @@ const db = {
             "discountPercentage": 12.76,
             "rating": 1,
             "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
+            "color": "green"
         },
         {
             "id": 109,
@@ -366,6 +413,7 @@ const db = {
             "discountPercentage": 22.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/92835724-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMzQ4fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDcxL2gyMi8xMzMyOTg1MzM0OTkxOC5qcGd8ZTEwNGU0NWRkYjZjYTRiZGQ0MjM5ZGQ2M2Y0OTk4ODM2MTNlMDYwZTY4YWRlMzVkZGNlZDllYjcyMmEwMDI3MA",
+            "color": "black"
         },
         {
             "id": 110,
@@ -376,6 +424,7 @@ const db = {
             "discountPercentage": 32.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/31556498-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMDEwfGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaGEyL2g0OS8xMzMwNDM3Mjk1MzExOC5qcGd8N2I5OThjNjIyOWE0NWU0YjRkOWU4NjU0ZGRiNWFkMGY2NDdlNjU4MzQ0NzI2M2Y2M2RlYWNkMTk2MDUyODhhOQ",
+            "color": "blue"
         },
         {
             "id": 9,
@@ -386,6 +435,7 @@ const db = {
             "discountPercentage": 22.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/92835724-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMzQ4fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDcxL2gyMi8xMzMyOTg1MzM0OTkxOC5qcGd8ZTEwNGU0NWRkYjZjYTRiZGQ0MjM5ZGQ2M2Y0OTk4ODM2MTNlMDYwZTY4YWRlMzVkZGNlZDllYjcyMmEwMDI3MA",
+            "color": "black"
         },
         {
             "id": 10,
@@ -396,7 +446,9 @@ const db = {
             "discountPercentage": 32.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/31556498-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMDEwfGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaGEyL2g0OS8xMzMwNDM3Mjk1MzExOC5qcGd8N2I5OThjNjIyOWE0NWU0YjRkOWU4NjU0ZGRiNWFkMGY2NDdlNjU4MzQ0NzI2M2Y2M2RlYWNkMTk2MDUyODhhOQ",
-        }, {
+            "color": "blue"
+        },
+        {
             "id": 309,
             "category": "trousers",
             "name": "American Stitch",
@@ -405,6 +457,7 @@ const db = {
             "discountPercentage": 22.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/92835724-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMzQ4fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDcxL2gyMi8xMzMyOTg1MzM0OTkxOC5qcGd8ZTEwNGU0NWRkYjZjYTRiZGQ0MjM5ZGQ2M2Y0OTk4ODM2MTNlMDYwZTY4YWRlMzVkZGNlZDllYjcyMmEwMDI3MA",
+            "color": "black"
         },
         {
             "id": 310,
@@ -415,6 +468,7 @@ const db = {
             "discountPercentage": 32.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/31556498-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMDEwfGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaGEyL2g0OS8xMzMwNDM3Mjk1MzExOC5qcGd8N2I5OThjNjIyOWE0NWU0YjRkOWU4NjU0ZGRiNWFkMGY2NDdlNjU4MzQ0NzI2M2Y2M2RlYWNkMTk2MDUyODhhOQ",
+            "color": "blue"
         },
         {
             "id": 209,
@@ -425,6 +479,8 @@ const db = {
             "discountPercentage": 22.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/92835724-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMzQ4fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDcxL2gyMi8xMzMyOTg1MzM0OTkxOC5qcGd8ZTEwNGU0NWRkYjZjYTRiZGQ0MjM5ZGQ2M2Y0OTk4ODM2MTNlMDYwZTY4YWRlMzVkZGNlZDllYjcyMmEwMDI3MA",
+            "color": "black"
+
         },
         {
             "id": 210,
@@ -435,6 +491,8 @@ const db = {
             "discountPercentage": 32.76,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/31556498-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDIyMDEwfGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaGEyL2g0OS8xMzMwNDM3Mjk1MzExOC5qcGd8N2I5OThjNjIyOWE0NWU0YjRkOWU4NjU0ZGRiNWFkMGY2NDdlNjU4MzQ0NzI2M2Y2M2RlYWNkMTk2MDUyODhhOQ",
+            "color": "blue"
+
         },
         {
             "id": 11,
@@ -445,6 +503,8 @@ const db = {
             "discountPercentage": 55,
             "rating": 2,
             "img": "https://img.tkmaxx.com/medias/27249388-search-wl-01.jpg?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDI5MzU0fGltYWdlL2pwZWd8cHJvZHVjdC1pbWFnZXMvaDc4L2g3Yy8xMzM0MTExMDkyNzM5MC5qcGd8MTYwZmM2NjJmMTg4NjE4NTVmNTRjNGEzNDQ1ZDY5NzU0NzQ1Y2I3NjdhYmJkZjc2NTA5MTA0N2I1NWJlZDFjYg",
+            "color": "blue"
+
         },
         {
             "id": 12,
@@ -455,6 +515,8 @@ const db = {
             "discountPercentage": 25,
             "rating": 4,
             "img": "https://resources.mandmdirect.com/Images/_default/p/u/3/pu33722_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
         {
             "id": 13,
@@ -465,6 +527,8 @@ const db = {
             "discountPercentage": 15,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/u/j/3/uj30066_1_cloudzoom.jpg",
+            "color": "black"
+
         },
         {
             "id": 14,
@@ -475,6 +539,8 @@ const db = {
             "discountPercentage": 25,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/p/u/6/pu6620_1_cloudzoom.jpg",
+            "color": "white"
+
         },
         {
             "id": 15,
@@ -485,6 +551,8 @@ const db = {
             "discountPercentage": 25,
             "rating": 3,
             "img": "https://resources.mandmdirect.com/Images/_default/q/w/1/qw1439_1_cloudzoom.jpg",
+            "color": "red"
+
         },
         {
             "id": 16,
@@ -495,6 +563,8 @@ const db = {
             "discountPercentage": 55,
             "rating": 4,
             "img": "https://resources.mandmdirect.com/Images/_default/a/d/3/ad35827_1_cloudzoom.jpg",
+            "color": "blue"
+
         },
     ]
 }
