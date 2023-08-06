@@ -27,8 +27,6 @@ function App() {
       <Category category={category} />
 
       <Main products={db.products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
-      {console.log(showed)}
-      {console.log(filtered)}
       {(isLoadMore && showed < filtered) && <LoadMore loadMoreHandler={loadMoreHandler} />}
       <Footer />
     </div>
