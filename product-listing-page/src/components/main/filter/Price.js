@@ -12,10 +12,6 @@ const Price = ({ setByPrice }) => {
             <h4 className={styles['price-title']}>Price</h4>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='0' name='price' onChange={priceHandler} /><span>{'All'}</span>
-            </label>
-
-            <label className={styles['input-cont']}>
                 <input type="radio" value='25' name='price' onChange={priceHandler} /> <span>{'< 25'}</span>
             </label>
 
@@ -29,6 +25,9 @@ const Price = ({ setByPrice }) => {
 
             <label className={styles['input-cont']}>
                 <input type="radio" value='200' name='price' onChange={priceHandler} /> <span>{'> 100'}</span>
+            </label>
+            <label className={styles['input-cont']}>
+                <input type="radio" value='0' name='price' onChange={priceHandler} /><span>{'All'}</span>
             </label>
         </div>
     )

@@ -3,11 +3,12 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import db from '../../db.js';
 
-const Header = ({ category, setCategory }) => {
+const Header = ({ setCategory, setProducts }) => {
 
     const categoryHandler = (e) => {
         const name = e.target.textContent;
         setCategory(db.categories.find(cat => cat.name === name));
+        setProducts(db.products)
     }
 
 

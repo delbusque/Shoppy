@@ -37,10 +37,10 @@ const Color = ({ setByColor }) => {
             <label className={styles['input-cont']}>
                 <input type="radio" value='yellow' name='color' onChange={colorHandler} /> <span>{'Yellow'}</span>
             </label>
-
             <label className={styles['input-cont']}>
                 <input type="radio" value='all' name='color' onChange={colorHandler} /><span>{'All'}</span>
             </label>
+
         </div>
 
 
