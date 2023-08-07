@@ -42,8 +42,6 @@ const Color = ({ setByColor }) => {
             </label>
 
         </div>
-
-
     )
 }
 

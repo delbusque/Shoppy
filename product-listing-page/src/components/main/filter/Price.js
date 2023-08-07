@@ -6,7 +6,6 @@ const Price = ({ setByPrice }) => {
         setByPrice(Number(e.target.value));
     }
 
-
     return (
         <div className={styles['price']}>
             <h4 className={styles['price-title']}>Price</h4>

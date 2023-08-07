@@ -1,11 +1,10 @@
 import styles from './Sort.module.css'
 
-
-const Sort = ({ sortHandler }) => {
-
+const Sort = ({ sortHandler, showed, filtered }) => {
 
     return (
         <div className={styles['sort-cont']}>
+            <div className={styles['counter']}>{showed} of {filtered} products</div>
             <select name="sort" className={styles['select']} onChange={(e) => sortHandler(e)}>
                 <option disabled value="selected" selected>Sort:</option>
                 <option value="a-z" >A-Z</option>

@@ -11,7 +11,6 @@ const Header = ({ setCategory, setProducts }) => {
         setProducts(db.products)
     }
 
-
     return (
         <div className={styles['header']}>
             <section className={styles["logo-cont"]}>
@@ -29,7 +28,6 @@ const Header = ({ setCategory, setProducts }) => {
                 </section>
             </section>
 
-
             <ul className={styles["cat-cont"]}>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Jackets</li>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Trousers</li>
@@ -39,8 +37,6 @@ const Header = ({ setCategory, setProducts }) => {
             </ul>
 
         </div>
-
-
     )
 }
 

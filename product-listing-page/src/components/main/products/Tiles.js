@@ -4,7 +4,6 @@ import styles from './Tiles.module.css'
 
 const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, setFiltered }) => {
 
-
     const filteredProducts = products.filter(p => {
         if (byPrice === 0) {
             if (byColor === 'all') {
@@ -142,8 +141,6 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
 
     let onGrid = 0;
 
-    // filteredProducts.length === 0 ? setIsLoadMore(false) : setIsLoadMore(true);
-
     const cardElement = filteredProducts.map(({ id, name, desc, img, price, rating }, i) => {
         if (i < flag) {
             onGrid++;
@@ -155,8 +152,6 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
         setShowed(onGrid)
         setFiltered(filteredProducts.length)
     }, [filteredProducts, onGrid, setShowed, setFiltered])
-
-
 
     return (
         <>

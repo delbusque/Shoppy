@@ -1,6 +1,8 @@
 .filter-cont {
   min-width: 10%;
   margin-left: 60px;
+  position: sticky;
+  top: 150px;
 }
 
 .price {
