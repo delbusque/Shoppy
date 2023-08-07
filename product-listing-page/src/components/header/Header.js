@@ -3,6 +3,8 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import db from '../../db.js';
 
+import { Routes, Route, Link } from 'react-router-dom'
+
 const Header = ({ setCategory, setProducts }) => {
 
     const categoryHandler = (e) => {
@@ -29,12 +31,22 @@ const Header = ({ setCategory, setProducts }) => {
             </section>
 
             <ul className={styles["cat-cont"]}>
+
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Jackets</li>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Trousers</li>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>T-Shirts</li>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Shorts</li>
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Shoes</li>
+
             </ul>
+
+            {/* <Routes>
+                    <Route path='/' element={<li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Jackets</li>} />
+                    <Route path='/' element={<li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Trousers</li>} />
+                    <Route path='/' element={<li className={styles['cat']} onClick={(e) => categoryHandler(e)}>T-Shirts</li>} />
+                    <Route path='/' element={<li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Shorts</li>} />
+                    <Route path='/' element={<li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Shoes</li>} />
+                </Routes> */}
 
         </div>
     )
