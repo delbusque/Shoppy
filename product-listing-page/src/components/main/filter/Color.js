@@ -11,34 +11,31 @@ const Color = ({ setByColor }) => {
             <h4 className={styles['color-title']}>Color</h4>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='black' name='color' onChange={colorHandler} /> <span>{'Black'}</span>
+                <input type="radio" value='black' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'Black'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='white' name='color' onChange={colorHandler} /> <span>{'White'}</span>
+                <input type="radio" value='white' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'White'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='red' name='color' onChange={colorHandler} /> <span>{'Red'}</span>
+                <input type="radio" value='red' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'Red'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='brown' name='color' onChange={colorHandler} /> <span>{'Brown'}</span>
+                <input type="radio" value='brown' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'Brown'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='blue' name='color' onChange={colorHandler} /> <span>{'Blue'}</span>
+                <input type="radio" value='blue' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'Blue'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='green' name='color' onChange={colorHandler} /> <span>{'Green'}</span>
+                <input type="radio" value='green' name='color' onChange={colorHandler} /> <span className={styles['checkmark']}></span>{'Green'}
             </label>
 
             <label className={styles['input-cont']}>
-                <input type="radio" value='yellow' name='color' onChange={colorHandler} /> <span>{'Yellow'}</span>
-            </label>
-            <label className={styles['input-cont']}>
-                <input type="radio" value='all' name='color' onChange={colorHandler} /><span>{'All'}</span>
+                <input type="radio" value='all' name='color' onChange={colorHandler} /><span className={styles['checkmark']}></span>{'All'}
             </label>
 
         </div>

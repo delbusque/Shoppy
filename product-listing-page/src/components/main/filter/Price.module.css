@@ -1,21 +1,73 @@
-.input-cont {
-  display: flex;
+.input-cont,
+.input-cont-all {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 36px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  align-items: center;
+}
+
+.input-cont-all {
+  opacity: 0.6;
 }
 
 .price-title {
-  padding-left: 5px;
+  padding-left: 4px;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-.input-cont input {
-  margin-right: 10px;
-}
-
-.input-cont span {
-  font-size: 18px;
+.input-cont input,
+.input-cont-all input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .price {
   margin-bottom: 50px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.input-cont:hover input ~ .checkmark,
+.input-cont-all:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.input-cont input:checked ~ .checkmark,
+.input-cont-all input:checked ~ .checkmark {
+  background-color: rgb(8, 75, 75);
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.input-cont input:checked ~ .checkmark::after,
+.input-cont-all input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.input-cont .checkmark::after,
+.input-cont-all .checkmark::after {
+  top: 6px;
+  left: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
 }
