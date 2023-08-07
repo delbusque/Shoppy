@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <Header category={category} setCategory={setCategory} setProducts={setProducts} />
       <Category category={category} />
 
