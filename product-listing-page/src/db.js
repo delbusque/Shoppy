@@ -567,6 +567,238 @@ const db = {
             "color": "blue"
 
         },
+        {
+            "id": 81,
+            "category": "jackets",
+            "name": "Adicolor 70S",
+            "desc": "Originals Mens Adicolor 70S New Montreal 22 Track Top Brown Desert",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "brown"
+        },
+        {
+            "id": 82,
+            "category": "jackets",
+            "name": "Shiny Jacket",
+            "desc": "French Connection Mens Row Shiny Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
+            "color": "black"
+        },
+        {
+            "id": 83,
+            "category": "t-shirts",
+            "name": "Half T shirts",
+            "desc": "Many store is creating new designs and trend every month and every year Many store is creating new designs and trend every month and every year",
+            "price": 13,
+            "discountPercentage": 12.76,
+            "rating": 2,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/y0pys5jfozblhxlsqzxq/dri-fit-fitness-t-shirt-0VRmcF.png",
+            "color": "black"
+        },
+        {
+            "id": 84,
+            "name": "Long Line",
+            "desc": "LUKE 1977 Mens Dreward Long Line Hooded Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 4,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
+            "color": "black"
+        },
+        {
+            "id": 85,
+            "name": "Sherpa Checked",
+            "desc": "Fluid Mens Sherpa Lined Checked Overshirt Black/​White",
+            "price": 15.89,
+            "discountPercentage": 55.76,
+            "rating": 5,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "black"
+
+        },
+        {
+            "id": 86,
+            "name": "Vintage Softshell",
+            "desc": "Lyle And Scott Vintage Mens Softshell Jacket Sea Mint",
+            "price": 45.99,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "green"
+
+        },
+        {
+            "id": 87,
+            "name": "Rainforest Pocket",
+            "desc": "Napapijri Mens Rainforest Pocket 3 Jacket Red Cherry",
+            "price": 125.89,
+            "discountPercentage": 35.76,
+            "rating": 4,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "red"
+
+        },
+        {
+            "id": 88,
+            "category": "jackets",
+            "name": "Micro Fleece",
+            "desc": "Berghaus Mens Prism Micro Fleece 1/​2 Zip Blue/​Blue",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
+            "color": "blue"
+
+        },
+        {
+            "id": 8331,
+            "category": "jackets",
+            "name": "Adicolor 70S",
+            "desc": "Originals Mens Adicolor 70S New Montreal 22 Track Top Brown Desert",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "brown"
+
+        },
+        {
+            "id": 8332,
+            "category": "jackets",
+            "name": "Shiny Jacket",
+            "desc": "French Connection Mens Row Shiny Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
+            "color": "black"
+
+        },
+        {
+            "id": 51,
+            "category": "jackets",
+            "name": "Adicolor 70S",
+            "desc": "Originals Mens Adicolor 70S New Montreal 22 Track Top Brown Desert",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "brown"
+        },
+        {
+            "id": 52,
+            "category": "jackets",
+            "name": "Shiny Jacket",
+            "desc": "French Connection Mens Row Shiny Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
+            "color": "black"
+        },
+        {
+            "id": 53,
+            "category": "t-shirts",
+            "name": "Half T shirts",
+            "desc": "Many store is creating new designs and trend every month and every year Many store is creating new designs and trend every month and every year",
+            "price": 13,
+            "discountPercentage": 12.76,
+            "rating": 2,
+            "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/y0pys5jfozblhxlsqzxq/dri-fit-fitness-t-shirt-0VRmcF.png",
+            "color": "black"
+        },
+        {
+            "id": 54,
+            "name": "Long Line",
+            "desc": "LUKE 1977 Mens Dreward Long Line Hooded Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 4,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/l/u/3/lu30311_1_cloudzoom.jpg",
+            "color": "black"
+        },
+        {
+            "id": 55,
+            "name": "Sherpa Checked",
+            "desc": "Fluid Mens Sherpa Lined Checked Overshirt Black/​White",
+            "price": 15.89,
+            "discountPercentage": 55.76,
+            "rating": 5,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/f/d/3/fd31024_1_cloudzoom.jpg",
+            "color": "black"
+
+        },
+        {
+            "id": 56,
+            "name": "Vintage Softshell",
+            "desc": "Lyle And Scott Vintage Mens Softshell Jacket Sea Mint",
+            "price": 45.99,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/l/t/3/lt30834_1_cloudzoom.jpg",
+            "color": "green"
+
+        },
+        {
+            "id": 57,
+            "name": "Rainforest Pocket",
+            "desc": "Napapijri Mens Rainforest Pocket 3 Jacket Red Cherry",
+            "price": 125.89,
+            "discountPercentage": 35.76,
+            "rating": 4,
+            "category": "jackets",
+            "img": "https://resources.mandmdirect.com/Images/_default/n/3/3/n330252_1_cloudzoom.jpg",
+            "color": "red"
+
+        },
+        {
+            "id": 58,
+            "category": "jackets",
+            "name": "Micro Fleece",
+            "desc": "Berghaus Mens Prism Micro Fleece 1/​2 Zip Blue/​Blue",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/b/e/3/be30300_1_cloudzoom.jpg",
+            "color": "blue"
+
+        },
+        {
+            "id": 5331,
+            "category": "jackets",
+            "name": "Adicolor 70S",
+            "desc": "Originals Mens Adicolor 70S New Montreal 22 Track Top Brown Desert",
+            "price": 25.89,
+            "discountPercentage": 12.76,
+            "rating": 1,
+            "img": "https://resources.mandmdirect.com/Images/_default/a/o/3/ao34345_1_cloudzoom.jpg",
+            "color": "brown"
+
+        },
+        {
+            "id": 5332,
+            "category": "jackets",
+            "name": "Shiny Jacket",
+            "desc": "French Connection Mens Row Shiny Jacket Black",
+            "price": 25.89,
+            "discountPercentage": 55.76,
+            "rating": 3,
+            "img": "https://resources.mandmdirect.com/Images/_default/n/n/3/nn30748_1_cloudzoom.jpg",
+            "color": "black"
+
+        },
     ]
 }
 
