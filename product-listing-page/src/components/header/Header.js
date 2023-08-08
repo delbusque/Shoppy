@@ -3,8 +3,6 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import db from '../../db.js';
 
-import { Routes, Route, Link } from 'react-router-dom'
-
 const Header = ({ setCategory, setProducts }) => {
 
     const categoryHandler = (e) => {
