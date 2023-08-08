@@ -54,9 +54,7 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
             else if (byColor === 'green') {
                 return p.color === 'green' && p.price < byPrice
             }
-            else if (byColor === 'yellow') {
-                return p.color === 'yellow' && p.price < byPrice
-            }
+
         }
         else if (byPrice === 50) {
             if (byColor === 'all') {
@@ -80,9 +78,7 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
             else if (byColor === 'green') {
                 return p.color === 'green' && p.price >= 25 && p.price <= byPrice
             }
-            else if (byColor === 'yellow') {
-                return p.color === 'yellow' && p.price >= 25 && p.price <= byPrice
-            }
+
         }
         else if (byPrice === 100) {
             if (byColor === 'all') {
@@ -106,9 +102,7 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
             else if (byColor === 'green') {
                 return p.color === 'green' && p.price >= 50 && p.price < byPrice
             }
-            else if (byColor === 'yellow') {
-                return p.color === 'yellow' && p.price >= 50 && p.price < byPrice
-            }
+
         }
         else {
             if (byColor === 'all') {
@@ -131,9 +125,6 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
             }
             else if (byColor === 'green') {
                 return p.color === 'green' && p.price >= 100
-            }
-            else if (byColor === 'yellow') {
-                return p.color === 'yellow' && p.price >= 100
             }
         }
     }
