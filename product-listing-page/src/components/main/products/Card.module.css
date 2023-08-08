@@ -39,6 +39,16 @@ h2 {
 
 .price {
   margin-bottom: 10px;
+  display: inline-block;
+
+}
+
+.rrp {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 6px;
+  color: hsl(168, 83%, 21%);
 }
 
 .btn {

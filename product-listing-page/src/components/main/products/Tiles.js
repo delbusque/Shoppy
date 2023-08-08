@@ -141,11 +141,11 @@ const Tiles = ({ products, flag, byPrice, byColor, setIsLoadMore, setShowed, set
 
     let onGrid = 0;
 
-    const cardElement = filteredProducts.map(({ id, name, desc, img, price, rating }, i) => {
+    const cardElement = filteredProducts.map(({ id, name, desc, img, price, rating, discountPercentage }, i) => {
         if (i < flag) {
             onGrid++;
         }
-        return i < flag && <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} />
+        return i < flag && <Card key={id} img={img} name={name} price={price} desc={desc} rating={rating} discount={discountPercentage} />
     })
 
     useEffect(() => {

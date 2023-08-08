@@ -1,7 +1,7 @@
 import styles from './Card.module.css'
 import { AiFillStar } from 'react-icons/ai'
 
-const Card = ({ name, desc, img, price, rating }) => {
+const Card = ({ name, desc, img, price, rating, discount }) => {
 
     const addTocardHandler = (e) => {
         e.preventDefault()
@@ -49,7 +49,11 @@ const Card = ({ name, desc, img, price, rating }) => {
                     </div>
                 </div>
 
-                <h2 className={styles["price"]}>${price.toFixed(2)}</h2>
+                <h2 className={styles["price"]}>
+                    ${discount ? (price - (price * discount / 100)).toFixed(2) : price.toFixed(2)}
+                </h2>
+
+                {discount ? <p className={styles["rrp"]}>RRP ${price.toFixed(2)}</p> : ''}
 
                 <form onSubmit={(e) => addTocardHandler(e)}>
                     <button className={styles["btn"]} >ADD TO CARD</button>
