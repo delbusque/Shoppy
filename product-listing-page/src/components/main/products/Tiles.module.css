@@ -12,3 +12,17 @@
   position: absolute;
   transform: translate(-50%, 50%);
 }
+
+@media screen and (max-width:1700px) {
+  .tiles-cont {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+
+@media screen and (max-width:1300px) {
+  .tiles-cont {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}

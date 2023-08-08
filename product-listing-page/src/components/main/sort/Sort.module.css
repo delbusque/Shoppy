@@ -1,5 +1,4 @@
 .sort-cont {
-  min-width: 12%;
   text-align: center;
   position: sticky;
   top: 150px;
@@ -7,10 +6,30 @@
 
 .counter {
   margin-bottom: 20px;
+  text-align: center;
+
 }
 
 .select {
   border: 1px solid #1c50504a;
   padding: 10px 10px;
   font-size: 16px;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 1500px) {
+
+  .counter,
+  .select {
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+
+  .counter,
+  .select {
+    margin-left: 2rem;
+  }
 }

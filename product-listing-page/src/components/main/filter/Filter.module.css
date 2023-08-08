@@ -1,10 +1,24 @@
 .filter-cont {
   min-width: 10%;
-  margin-left: 60px;
+  margin-left: 4rem;
   position: sticky;
   top: 150px;
 }
 
 .price {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1700px) {
+  .filter-cont {
+    margin-left: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+  .filter-cont {
+    margin-left: 5rem;
+  }
+
 }
