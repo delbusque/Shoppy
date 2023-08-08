@@ -17,17 +17,17 @@ const Price = ({ setByPrice }) => {
 
             <label className={styles['input-cont']}>
                 <input type="radio" value='50' name='price' onChange={priceHandler} />
-                <span className={styles['checkmark']}></span>{'25 - 50'}
+                <span className={styles['checkmark']}></span>{'25 - 49'}
             </label>
 
             <label className={styles['input-cont']}>
                 <input type="radio" value='100' name='price' onChange={priceHandler} />
-                <span className={styles['checkmark']}></span>{'51 - 100'}
+                <span className={styles['checkmark']}></span>{'50 - 99'}
             </label>
 
             <label className={styles['input-cont']}>
                 <input type="radio" value='200' name='price' onChange={priceHandler} />
-                <span className={styles['checkmark']}></span>{'> 100'}
+                <span className={styles['checkmark']}></span>{'100 >'}
             </label>
             <label className={styles['input-cont-all']}>
                 <input type="radio" value='0' name='price' onChange={priceHandler} />
