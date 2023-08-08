@@ -1,9 +1,10 @@
 .card-cont {
-  max-width: 250px;
+  max-width: 280px;
   padding: 15px 15px;
   border: 1px solid rgba(192, 214, 221, 0.281);
   text-align: center;
   position: relative;
+  margin-bottom: 70px;
 }
 
 img {
@@ -37,17 +38,23 @@ h2 {
   overflow: hidden;
 }
 
+
+
 .price {
   margin-bottom: 10px;
   display: inline-block;
 
 }
 
+.disc {
+  display: inline-block;
+}
+
 .rrp {
   display: inline-block;
   font-size: 12px;
   margin-left: 6px;
-  color: hsl(168, 83%, 21%);
+  color: hsla(168, 83%, 21%, 0.62);
 }
 
 .btn {
