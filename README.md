@@ -6,7 +6,7 @@ and filtered by category.
 
 Products are mapped at the main tiles grid after applying the price and color filters. Sorting is added alphabetically by name and in ascending and descending order by price. Discounted product prices are calculated in the sort handler function.
 
-If there are more products than the rendered card tiles, Load more button adds another portion of them to the grid. A counter above the sort section shows the count of displayed products.
+If there are more products than the rendered card tiles, "Load more" button adds another portion of them to the grid. A counter above the sort section shows the count of displayed products.
 
 The data between React components is passed only with props relying on the useState hook.
 
