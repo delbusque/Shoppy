@@ -1,9 +1,10 @@
 # Shoppy
 Product listing page is a simple single-page application. The views are rendered on the client with the React.js library. The page layout is built using Flexbox and CSS Grid.
 
-The categories from the static header have the role of navigating between the different product types. 
+The categories from the static header have the role of navigating between the different product types. All products were retrieved from sample json structured data 
+and filtered by category. 
 
-Filter each product by category from sample json structured data. Products are mapped at the main tiles grid after applying the price and color filters. Sorting is added alphabetically by name and in ascending and descending order by price. Discounted product prices are calculated in the sort handler function.
+Products are mapped at the main tiles grid after applying the price and color filters. Sorting is added alphabetically by name and in ascending and descending order by price. Discounted product prices are calculated in the sort handler function.
 
 If there are more products than the rendered card tiles, Load more button adds another portion of them to the grid. A counter above the sort section shows the count of displayed products.
 
