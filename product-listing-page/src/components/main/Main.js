@@ -5,6 +5,7 @@ import styles from './Main.module.css'
 import Sort from './sort/Sort';
 import Tiles from './products/Tiles';
 import MobFilter from './filter/MobFilter.js';
+import MobSort from './sort/MobSort.js';
 
 const Main = ({ categoryHandler, products, flag, setIsLoadMore, setShowed, setFiltered, setProducts, chosenCategory, showed, filtered, showFilter }) => {
 
@@ -52,8 +53,10 @@ const Main = ({ categoryHandler, products, flag, setIsLoadMore, setShowed, setFi
     return (
         <div className={styles['main-cont']}>
             <Filter categoryHandler={categoryHandler} setByPrice={setByPrice} setByColor={setByColor} />
+            <MobSort setProducts={setProducts} sortHandler={sortHandler} showed={showed} filtered={filtered} sortFlag={sortFlag} />
             {showFilter && <MobFilter categoryHandler={categoryHandler} setByPrice={setByPrice} setByColor={setByColor} />}
             <Tiles products={currentProducts} flag={flag} byPrice={byPrice} byColor={byColor} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
+
             <Sort setProducts={setProducts} sortHandler={sortHandler} showed={showed} filtered={filtered} sortFlag={sortFlag} />
         </div>
     )

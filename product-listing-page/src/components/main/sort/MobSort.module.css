@@ -1,4 +1,4 @@
-.sort-cont {
+.mobsort-cont {
   text-align: center;
   position: sticky;
   top: 150px;
@@ -36,13 +36,26 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .sort-cont {
+  .mobsort-cont {
     margin: 0 auto;
+    background-color: white;
+    position: inherit;
+    margin-bottom: 50px;
+  }
+
+  .counter {
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .select {
+    margin-left: 0;
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .sort-cont {
+@media screen and (min-width: 1100px) {
+  .mobsort-cont {
     display: none;
   }
 }
