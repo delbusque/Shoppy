@@ -1,5 +1,5 @@
 # Shoppy
-Product listing page is a simple single-page application with no routing. The views are rendered on the client with the React.js library. The page layout is built using Flexbox and CSS Grid.
+Product listing page is a simple single-page application. The views are rendered on the client with the React.js library. The page layout is built using Flexbox and CSS Grid.
 
 The categories from the static header have the role of navigating between the different product types. 
 
