@@ -3,6 +3,11 @@
   margin-left: 4rem;
   position: sticky;
   top: 150px;
+  z-index: 1000;
+}
+
+.cat-cont {
+  display: none;
 }
 
 .price {
@@ -19,6 +24,42 @@
 @media screen and (max-width: 1300px) {
   .filter-cont {
     margin-left: 5rem;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .filter-cont {
+    display: flex;
+    gap: 100px;
+    position: sticky;
+    top: 80px;
+    width: 95%;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: space-evenly;
+  }
+
+  .cat-cont {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    background-color: white;
+    margin-left: 15px;
+  }
+
+  .cat {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #2d3333;
+    margin-bottom: 15px;
+    transition: color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  }
+
+  .cat:hover {
+    box-shadow: inset 100px 0 0 0 #1c5050;
+    color: white;
   }
 
 }

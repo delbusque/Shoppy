@@ -84,3 +84,21 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1100px) {
+
+  .color-title,
+  .price-title {
+    font-size: 18px;
+  }
+
+  .input-cont,
+  .input-cont-all {
+    font-size: 16px;
+  }
+
+  .price {
+    width: 100px;
+
+  }
+}

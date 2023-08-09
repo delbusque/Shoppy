@@ -107,7 +107,10 @@
   .input-cont-all {
     font-size: 16px;
   }
+}
 
-
-
+@media screen and (max-width: 1100px) {
+  .color {
+    margin-bottom: 35px;
+  }
 }
