@@ -14,9 +14,11 @@ function App() {
   const chosenCategory = category.name.toLowerCase();
 
   const [flag, setFlag] = useState(20);
-  const [isLoadMore, setIsLoadMore] = useState(true)
-  const [showed, setShowed] = useState(0)
-  const [filtered, setFiltered] = useState(0)
+  const [isLoadMore, setIsLoadMore] = useState(true);
+  const [showed, setShowed] = useState(0);
+  const [filtered, setFiltered] = useState(0);
+
+  const [showFilter, setShowFilter] = useState(false);
 
   const categoryHandler = (e) => {
     const name = e.target.textContent;
@@ -31,10 +33,10 @@ function App() {
   return (
     <div>
       <Header category={category} setCategory={setCategory} setProducts={setProducts}
-        categoryHandler={categoryHandler} />
+        categoryHandler={categoryHandler} setShowFilter={setShowFilter} />
       <Category category={category} />
 
-      <Main products={products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} setProducts={setProducts} chosenCategory={chosenCategory} showed={showed} filtered={filtered} categoryHandler={categoryHandler} />
+      <Main products={products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} setProducts={setProducts} chosenCategory={chosenCategory} showed={showed} filtered={filtered} categoryHandler={categoryHandler} showFilter={showFilter} />
 
       {(isLoadMore && showed < filtered) && <LoadMore loadMoreHandler={loadMoreHandler} />}
 

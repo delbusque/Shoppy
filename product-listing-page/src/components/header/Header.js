@@ -3,9 +3,7 @@ import { AiOutlineUser, AiOutlineMenu } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import db from '../../db.js';
 
-const Header = ({ setCategory, setProducts, categoryHandler }) => {
-
-
+const Header = ({ setCategory, setProducts, categoryHandler, setShowFilter }) => {
 
     return (
         <div className={styles['header']}>
@@ -37,7 +35,7 @@ const Header = ({ setCategory, setProducts, categoryHandler }) => {
             <section className={styles["mob-cont"]}>
 
                 <div className={styles["mob-logo-cont"]}>
-                    <AiOutlineMenu className={styles["mob-menu"]} />
+                    <AiOutlineMenu className={styles["mob-menu"]} onClick={() => setShowFilter(show => !show)} />
                     <div className={styles["mob-logo"]}>
                         SHOPPY
                     </div>

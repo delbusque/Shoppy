@@ -1,10 +1,10 @@
 import Color from './Color.js';
-import styles from './Filter.module.css'
+import styles from './MobFilter.module.css'
 import Price from './Price.js';
 
-const Filter = ({ setByPrice, setByColor, categoryHandler }) => {
+const MobFilter = ({ setByPrice, setByColor, categoryHandler }) => {
     return (
-        <div className={styles['filter-cont']}>
+        <div className={styles['mobfilter-cont']}>
             <ul className={styles["cat-cont"]}>
 
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Jackets</li>
@@ -22,4 +22,4 @@ const Filter = ({ setByPrice, setByColor, categoryHandler }) => {
     )
 }
 
-export default Filter;
+export default MobFilter;

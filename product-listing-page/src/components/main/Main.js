@@ -4,12 +4,13 @@ import Filter from './filter/Filter';
 import styles from './Main.module.css'
 import Sort from './sort/Sort';
 import Tiles from './products/Tiles';
+import MobFilter from './filter/MobFilter.js';
 
-const Main = ({ categoryHandler, products, flag, setIsLoadMore, setShowed, setFiltered, setProducts, chosenCategory, showed, filtered }) => {
+const Main = ({ categoryHandler, products, flag, setIsLoadMore, setShowed, setFiltered, setProducts, chosenCategory, showed, filtered, showFilter }) => {
 
     const [byPrice, setByPrice] = useState(0);
     const [byColor, setByColor] = useState('all');
-    const [sortFlag, setSortFlag] = useState(false)
+    const [sortFlag, setSortFlag] = useState(false);
 
     const currentProducts = products.filter(prod => prod.category === chosenCategory);
 
@@ -51,6 +52,7 @@ const Main = ({ categoryHandler, products, flag, setIsLoadMore, setShowed, setFi
     return (
         <div className={styles['main-cont']}>
             <Filter categoryHandler={categoryHandler} setByPrice={setByPrice} setByColor={setByColor} />
+            {showFilter && <MobFilter categoryHandler={categoryHandler} setByPrice={setByPrice} setByColor={setByColor} />}
             <Tiles products={currentProducts} flag={flag} byPrice={byPrice} byColor={byColor} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} />
             <Sort setProducts={setProducts} sortHandler={sortHandler} showed={showed} filtered={filtered} sortFlag={sortFlag} />
         </div>
