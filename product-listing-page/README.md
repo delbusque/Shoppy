@@ -4,7 +4,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-Installs required npm packages .\
+Installs required npm packages.\
 
 ### `npm start`
 
