@@ -53,3 +53,48 @@
   box-shadow: inset 100px 0 0 0 #1c5050;
   color: white;
 }
+
+.mob-cont {
+  display: none;
+  padding: 30px 35px 30px 35px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.mob-logo-cont {
+  display: flex;
+  align-items: center;
+
+}
+
+.mob-menu {
+  font-size: 34px;
+  color: #1c5050;
+  cursor: pointer;
+}
+
+.mob-logo {
+  font-size: 32px;
+  color: #1c5050;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+
+  .logo-cont,
+  .cat-cont {
+    display: none;
+  }
+
+  .mob-cont {
+    display: flex;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+  }
+}

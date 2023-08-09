@@ -1,15 +1,11 @@
 import styles from './Header.module.css'
-import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineMenu } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 import db from '../../db.js';
 
-const Header = ({ setCategory, setProducts }) => {
+const Header = ({ setCategory, setProducts, categoryHandler }) => {
 
-    const categoryHandler = (e) => {
-        const name = e.target.textContent;
-        setCategory(db.categories.find(cat => cat.name === name));
-        setProducts(db.products)
-    }
+
 
     return (
         <div className={styles['header']}>
@@ -37,7 +33,26 @@ const Header = ({ setCategory, setProducts }) => {
                 <li className={styles['cat']} onClick={(e) => categoryHandler(e)}>Shoes</li>
 
             </ul>
+
+            <section className={styles["mob-cont"]}>
+
+                <div className={styles["mob-logo-cont"]}>
+                    <AiOutlineMenu className={styles["mob-menu"]} />
+                    <div className={styles["mob-logo"]}>
+                        SHOPPY
+                    </div>
+                </div>
+                <section className={styles["user"]}>
+                    <AiOutlineUser className={styles["user-icon"]} />
+                    <BsBasket className={styles["user-icon"]} />
+                </section>
+
+            </section>
+
+
         </div>
+
+
     )
 }
 
