@@ -18,16 +18,23 @@ function App() {
   const [showed, setShowed] = useState(0)
   const [filtered, setFiltered] = useState(0)
 
+  const categoryHandler = (e) => {
+    const name = e.target.textContent;
+    setCategory(db.categories.find(cat => cat.name === name));
+    setProducts(db.products)
+  }
+
   const loadMoreHandler = () => {
     setFlag(oldState => oldState + 20)
   }
 
   return (
     <div>
-      <Header category={category} setCategory={setCategory} setProducts={setProducts} />
+      <Header category={category} setCategory={setCategory} setProducts={setProducts}
+        categoryHandler={categoryHandler} />
       <Category category={category} />
 
-      <Main products={products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} setProducts={setProducts} chosenCategory={chosenCategory} showed={showed} filtered={filtered} />
+      <Main products={products} category={category} flag={flag} setIsLoadMore={setIsLoadMore} setShowed={setShowed} setFiltered={setFiltered} setProducts={setProducts} chosenCategory={chosenCategory} showed={showed} filtered={filtered} categoryHandler={categoryHandler} />
 
       {(isLoadMore && showed < filtered) && <LoadMore loadMoreHandler={loadMoreHandler} />}
 
