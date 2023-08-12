@@ -17,7 +17,7 @@ const Card = ({ name, desc, img, price, rating, discount }) => {
                 <div className={styles["info-cont"]}>
 
                     <h3 className={styles["name"]}>{name}</h3>
-                    <p className={styles["desc"]}>{desc}</p>
+                    <p className={styles["desc"]}>{desc.substring(0, 50)}</p>
                     <div className={styles["stars-cont"]}>
 
                         {rating === 1 && <>

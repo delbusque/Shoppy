@@ -3,17 +3,17 @@ const db = {
         {
             "id": 1,
             "name": "Jackets",
-            "desc": "Cosy up in our selection of men’s winter coats or cool down with a lightweight jacket – whichever season you're shopping in, we have what you need.",
+            "desc": "Cosy up in our selection of men’s winter coats or cool down with a lightweight jacket – whichever season you're shopping in, we have what you need",
         },
         {
             "id": 2,
             "name": "Shoes",
-            "desc": "We've got a style for every mood and personality. Go for classic brogues at the office or a special occasion, leather slip-ons on warm-weather days and causal trainers for off-duty looks.",
+            "desc": "We've got a style for every mood and personality. Go for classic brogues at the office or a special occasion, leather slip-ons on warm-weather days and causal trainers for off-duty looks",
         },
         {
             "id": 3,
             "name": "Trousers",
-            "desc": "We’ve got mens chinos, cargo pants, smart trousers & even joggers from the biggest brands & designers for a steal.",
+            "desc": "We’ve got mens chinos, cargo pants, smart trousers & even joggers from the biggest brands & designers for a steal",
         },
         {
             "id": 4,
@@ -23,7 +23,7 @@ const db = {
         {
             "id": 5,
             "name": "Shorts",
-            "desc": "As the weather warms up, it’s time to free your legs and don a pair of summer shorts. From men’s cargo shorts to casual men's denim shorts, we have what you’re looking for. ",
+            "desc": "As the weather warms up, it’s time to free your legs and don a pair of summer shorts. From men’s cargo shorts to casual men's denim shorts, we have what you’re looking for ",
         },
     ],
     products: [
