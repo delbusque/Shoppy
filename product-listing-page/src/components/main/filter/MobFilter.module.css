@@ -1,9 +1,7 @@
 .mobfilter-cont {
   min-width: 10%;
   margin-left: 4rem;
-  position: sticky;
-  top: 150px;
-  z-index: 1000;
+
   background-color: white;
 }
 
@@ -25,8 +23,7 @@
   .mobfilter-cont {
     display: flex;
     gap: 100px;
-    position: sticky;
-    top: 70px;
+
     width: 95%;
     background-color: white;
     margin: 0 auto;
