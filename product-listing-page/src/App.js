@@ -1,3 +1,4 @@
+import styles from './App.module.css'
 import db from './db.js';
 import { useState } from 'react';
 
@@ -31,7 +32,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className={styles['app']}>
       <Header category={category} setCategory={setCategory} setProducts={setProducts}
         categoryHandler={categoryHandler} setShowFilter={setShowFilter} />
       <Category category={category} />

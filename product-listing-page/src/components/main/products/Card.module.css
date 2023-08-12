@@ -1,5 +1,5 @@
 .card-cont {
-  max-width: 280px;
+
   padding: 15px 15px;
   border: 1px solid rgba(192, 214, 221, 0.281);
   text-align: center;
@@ -9,10 +9,10 @@
 
 img {
   margin-bottom: 10px;
-  width: 220px;
-  height: 230px;
+  width: 100%;
+  height: 200px;
   z-index: 100;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 h3,
@@ -75,7 +75,7 @@ h2 {
 
 @media screen and (max-width:1500px) {
   .card-cont {
-    max-width: 310px;
+
     padding: 15px 15px;
     border: 1px solid rgba(192, 214, 221, 0.281);
     text-align: center;

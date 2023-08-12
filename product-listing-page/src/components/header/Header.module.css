@@ -67,7 +67,7 @@
 }
 
 .mob-menu {
-  font-size: 34px;
+  font-size: 32px;
   color: #1c5050;
   cursor: pointer;
 }
@@ -79,6 +79,7 @@
 }
 
 @media screen and (max-width: 1100px) {
+
   .logo-cont,
   .cat-cont {
     display: none;
@@ -86,6 +87,7 @@
 
   .mob-cont {
     display: flex;
+    padding: 20px;
   }
 
   .header {
@@ -93,9 +95,23 @@
     top: 0;
     z-index: 1;
     background-color: white;
+    align-self: center;
+
   }
 
-  .mob-cont .user-icon {
-    font-size: 28px;
+}
+
+@media screen and (max-width: 920px) {
+  .mob-cont {
+    padding: 25px 25px 10px 25px;
+  }
+
+  .mob-menu {
+    font-size: 26px;
+  }
+
+  .mob-logo {
+    font-size: 22px;
+
   }
 }
