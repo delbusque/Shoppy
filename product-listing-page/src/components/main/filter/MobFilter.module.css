@@ -4,6 +4,7 @@
   position: sticky;
   top: 150px;
   z-index: 1000;
+  background-color: white;
 }
 
 .cat-cont {
@@ -29,8 +30,10 @@
     width: 95%;
     background-color: white;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
     justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .cat-cont {
@@ -57,7 +60,39 @@
 
 @media screen and (max-width: 920px) {
   .mobfilter-cont {
-    top: 50px;
+    top: 60px;
+  }
+
+  .cat-cont {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .mobfilter-cont {
+    top: 60px;
+    gap: 30px
+  }
+
+  .cat-cont {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .mobfilter-cont {
+    top: 60px;
+    gap: 30px
+  }
+
+  .cat-cont {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .mobfilter-cont {
+    display: none;
   }
 
 }

@@ -73,7 +73,7 @@
 }
 
 .mob-logo {
-  font-size: 32px;
+  font-size: 30px;
   color: #1c5050;
   margin-left: 20px;
 }
@@ -99,11 +99,14 @@
 
   }
 
+  .user {
+    margin-right: 5px;
+  }
 }
 
 @media screen and (max-width: 920px) {
   .mob-cont {
-    padding: 25px 25px 10px 25px;
+    padding: 25px;
   }
 
   .mob-menu {
@@ -112,6 +115,51 @@
 
   .mob-logo {
     font-size: 22px;
-
   }
+
+  .user {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .user-icon {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .mob-cont {
+    padding: 25px;
+  }
+
+  .mob-menu {
+    font-size: 26px;
+  }
+
+  .mob-logo {
+    font-size: 22px;
+  }
+
+  .user {
+    font-size: 14px;
+  }
+
+  .user-icon {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .user {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 180px) {
+  .header {
+    display: none;
+  }
+
 }

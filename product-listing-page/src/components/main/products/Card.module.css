@@ -75,10 +75,136 @@ h2 {
 
 @media screen and (max-width:1500px) {
   .card-cont {
-
     padding: 15px 15px;
     border: 1px solid rgba(192, 214, 221, 0.281);
     text-align: center;
     display: inline-block;
+  }
+}
+
+@media screen and (max-width:920px) {
+
+  .card-cont {
+    width: 300px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .rrp {
+    font-size: 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+
+  .card-cont {
+    width: 250px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .rrp {
+    font-size: 10px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width:560px) {
+
+  .card-cont {
+    width: 350px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .rrp {
+    font-size: 10px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  .card-cont {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width:330px) {
+
+  .card-cont {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width:280px) {
+
+  .card-cont {
+    width: 230px;
+  }
+}
+
+
+@media screen and (max-width:270px) {
+
+  .card-cont {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width:240px) {
+
+  .card-cont {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:150px) {
+
+  .card-cont {
+    width: 100px;
   }
 }

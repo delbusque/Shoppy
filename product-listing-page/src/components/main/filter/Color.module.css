@@ -114,3 +114,58 @@
     margin-bottom: 35px;
   }
 }
+
+@media screen and (max-width: 920px) {
+
+  .color-title,
+  .price-title {
+    font-size: 16px;
+  }
+
+  .input-cont,
+  .input-cont-all {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  .checkmark {
+    height: 17px;
+    width: 17px;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  .color-title {
+    font-size: 14px;
+  }
+
+  .input-cont,
+  .input-cont-all {
+    font-size: 12px;
+  }
+
+  .checkmark {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+
+  .color-title {
+    font-size: 13px;
+  }
+
+  .input-cont,
+  .input-cont-all {
+    font-size: 10px;
+    padding-left: 20px;
+  }
+
+  .checkmark {
+    height: 10px;
+    width: 10px;
+  }
+}

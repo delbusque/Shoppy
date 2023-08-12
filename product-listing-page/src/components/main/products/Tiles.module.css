@@ -40,6 +40,30 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     gap: 30px;
-    padding: 0 40px;
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .tiles-cont {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width:560px) {
+  .tiles-cont {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .tiles-cont {
+    padding: 0 10px;
   }
 }
